@@ -1,0 +1,144 @@
+{
+  "places":
+          [
+            {
+              "name": "p0",
+              "tokens": 1,
+              "nextT": ["t0"]
+            },
+            {
+              "name": "p1",
+              "tokens": 0,
+              "nextT": ["t1"]
+            },
+            {
+              "name": "p2",
+              "tokens": 0,
+              "nextT": ["t2"]
+            },
+            {
+              "name": "p3",
+              "tokens": 0,
+              "nextT": ["t3"]
+            },
+            {
+              "name": "p4",
+              "tokens": 1,
+              "nextT": ["t3", "t6"]
+            },
+            {
+              "name": "p5",
+              "tokens": 0,
+              "nextT": ["t4"]
+            },
+            {
+              "name": "p6",
+              "tokens": 1,
+              "nextT": ["t4", "t5"]
+            },
+            {
+              "name": "p7",
+              "tokens": 0,
+              "nextT": ["t5"]
+            },
+            {
+              "name": "p8",
+              "tokens": 0,
+              "nextT": ["t6"]
+            },
+            {
+              "name": "p9",
+              "tokens": 0,
+              "nextT": ["t7"]
+            },
+            {
+              "name": "p10",
+              "tokens": 0,
+              "nextT": ["t8"]
+            },
+            {
+              "name": "p11",
+              "tokens": 0,
+              "nextT": ["t9"]
+            },
+            {
+              "name": "p12",
+              "tokens": 0,
+              "nextT": ["t9"]
+            },
+            {
+              "name": "p13",
+              "tokens": 0,
+              "nextT": ["t10"]
+            }
+          ],
+  "transitions":
+          [
+            {
+              "name": "t0",
+              "tempo": [0],
+              "nextP": ["p1", "p2"],
+              "prevP": ["p0"]
+            },
+            {
+              "name": "t1",
+              "tempo": [1],
+              "nextP": ["p3"],
+              "prevP": ["p1"]
+            },
+            {
+              "name": "t2",
+              "tempo": [4],
+              "nextP": ["p5"],
+              "prevP": ["p2"]
+            },
+            {
+              "name": "t3",
+              "tempo": [0],
+              "nextP": ["p7"],
+              "prevP": ["p3","p4"]
+            },
+            {
+              "name": "t4",
+              "tempo": [0],
+              "nextP": ["p8"],
+              "prevP": ["p6","p5"]
+            },
+            {
+              "name": "t5",
+              "tempo": [2, 4],
+              "nextP": ["p9"],
+              "prevP": ["p7","p6"]
+            },
+            {
+              "name": "t6",
+              "tempo": [2, 5],
+              "nextP": ["p10"],
+              "prevP": ["p8","p4"]
+            },
+            {
+              "name": "t7",
+              "tempo": [3, 4],
+              "nextP": ["p11", "p4", "p6"],
+              "prevP": ["p9"]
+            },
+            {
+              "name": "t8",
+              "tempo": [2, 3],
+              "nextP": ["p12", "p4", "p6"],
+              "prevP": ["p10"]
+            },
+            {
+              "name": "t9",
+              "tempo": [0],
+              "nextP": ["p13"],
+              "prevP": ["p11","p12"]
+            },
+            {
+              "name": "t10",
+              "tempo": [0],
+              "nextP": [],
+              "prevP": ["p13"]
+            }
+          ]
+}

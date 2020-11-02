@@ -1,0 +1,15 @@
+Place name: p0 No of tokens: 0 At time: 16
+Place name: p1 No of tokens: 0 At time: 16
+Place name: p2 No of tokens: 0 At time: 16
+Place name: p3 No of tokens: 0 At time: 16
+Place name: p4 No of tokens: 1 At time: 16
+Place name: p5 No of tokens: 0 At time: 16
+Place name: p6 No of tokens: 1 At time: 16
+Place name: p7 No of tokens: 0 At time: 16
+Place name: p8 No of tokens: 0 At time: 16
+Place name: p9 No of tokens: 0 At time: 16
+Place name: p10 No of tokens: 0 At time: 16
+Place name: p11 No of tokens: 0 At time: 16
+Place name: p12 No of tokens: 0 At time: 16
+Place name: p13 No of tokens: 0 At time: 16
+#########################################################################################
